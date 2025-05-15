@@ -134,6 +134,8 @@ declare_with_version! { RENAMED(RENAMED_VERSION) = [
     ("clippy::maybe_misused_cfg", "unexpected_cfgs"),
     #[clippy::version = ""]
     ("clippy::mem_discriminant_non_enum", "enum_intrinsics_non_enums"),
+    #[clippy::version = "1.90.0"]
+    ("clippy::min_ident_chars", "clippy::ident_chars"),
     #[clippy::version = "1.80.0"]
     ("clippy::mismatched_target_os", "unexpected_cfgs"),
     #[clippy::version = ""]

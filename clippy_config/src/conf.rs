@@ -682,6 +682,9 @@ define_Conf! {
     /// The maximum number of bool parameters a function can have
     #[lints(fn_params_excessive_bools)]
     max_fn_params_bools: u64 = 3,
+    /// The maximum length of an identifier
+    #[lints(ident_chars)]
+    max_ident_chars_length: u32 = 100,
     /// The maximum size of a file included via `include_bytes!()` or `include_str!()`, in bytes
     #[lints(large_include_file)]
     max_include_file_size: u64 = 1_000_000,
@@ -697,7 +700,7 @@ define_Conf! {
     #[lints(type_repetition_in_bounds)]
     max_trait_bounds: u64 = 3,
     /// Minimum chars an ident can have, anything below or equal to this will be linted.
-    #[lints(min_ident_chars)]
+    #[lints(ident_chars)]
     min_ident_chars_threshold: u64 = 1,
     /// Whether to allow fields starting with an underscore to skip documentation requirements
     #[lints(missing_docs_in_private_items)]

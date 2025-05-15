@@ -714,6 +714,16 @@ The maximum number of bool parameters a function can have
 * [`fn_params_excessive_bools`](https://rust-lang.github.io/rust-clippy/master/index.html#fn_params_excessive_bools)
 
 
+## `max-ident-chars-length`
+The maximum length of an identifier
+
+**Default Value:** `100`
+
+---
+**Affected lints:**
+* [`ident_chars`](https://rust-lang.github.io/rust-clippy/master/index.html#ident_chars)
+
+
 ## `max-include-file-size`
 The maximum size of a file included via `include_bytes!()` or `include_str!()`, in bytes
 
@@ -763,7 +773,7 @@ Minimum chars an ident can have, anything below or equal to this will be linted.
 
 ---
 **Affected lints:**
-* [`min_ident_chars`](https://rust-lang.github.io/rust-clippy/master/index.html#min_ident_chars)
+* [`ident_chars`](https://rust-lang.github.io/rust-clippy/master/index.html#ident_chars)
 
 
 ## `missing-docs-allow-unused`
