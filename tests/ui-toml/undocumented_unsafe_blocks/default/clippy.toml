@@ -1,2 +1,4 @@
 # default configuration has `accept-comment-above-statement` and
 # `accept-comment-above-attributes` true
+
+max-variable-name-length = 80
